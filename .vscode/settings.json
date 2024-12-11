@@ -1,0 +1,14 @@
+{
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css", // Ruta de salida de los archivos CSS
+            "generateMap": false // Desactivar la generación archivos .map junto a los css generados
+        }
+    ],
+    "liveSassCompile.settings.excludeList": [
+        "**/node_modules/**",
+        ".vscode/**"
+    ]
+}
